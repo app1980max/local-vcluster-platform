@@ -5,7 +5,6 @@
 vCluster is an open source solution that enables teams to run virtual Kubernetes clusters inside existing infrastructure. It helps platform engineers create secure, isolated environments for development, testing, CI/CD, and even production workloads, without the cost or overhead of managing separate physical clusters.
 
 
-
 🚀 It’s especially helpful for:
 ```
 ✅ Developers who need a fast, disposable Kubernetes cluster on their laptop.
