@@ -14,3 +14,4 @@ resource "null_resource" "register" {
 
   depends_on = [helm_release.vcluster]
 }
+
