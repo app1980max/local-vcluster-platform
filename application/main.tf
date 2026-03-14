@@ -45,5 +45,3 @@ resource "argocd_application" "grafana" {
     }
   }
 }
-
-
