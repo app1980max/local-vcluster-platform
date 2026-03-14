@@ -1,10 +1,9 @@
 admin:
   username: admin
   password: admin
-  
 config:
   audit:
-    enabled: false
+    enabled: true
   loftHost: vcluster.appflex.io
 
 ingress:
