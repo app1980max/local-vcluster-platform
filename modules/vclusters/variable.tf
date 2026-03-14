@@ -2,22 +2,12 @@
 variable "name" {}
 variable "namespace" {}
 
-variable "loft_host" {
-  description = "Number of additional control planes for HA"
-  type        = string
-  default     = "vcluster-dev.appflex.io"
-}
+variable "loft_host" {}
+variable "loft_user" {}
+variable "loft_password" {}
 
-variable "loft_user" {
-  description = "Number of additional control planes for HA"
-  type        = string
-  default     = "admin"
-}
-
-variable "loft_password" {
-  description = "Number of additional control planes for HA"
-  type        = string
-  default     = "admin"
+variable "loft_project" {
+  default = "Default Project"
 }
 
 variable "kubeconfig_path" {
