@@ -26,3 +26,4 @@ resource "helm_release" "vcluster_platform" {
     value = "true"
   }
 }
+
