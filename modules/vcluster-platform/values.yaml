@@ -8,7 +8,7 @@ admin:
   password: admin
 config:
   audit:
-    enabled: true
+    enabled: false
   loftHost: vcluster-dev.appflex.io
 ingress:
   enabled: true
